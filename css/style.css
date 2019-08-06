@@ -327,21 +327,29 @@ nav ul li a {
 #services {
   background: #f7f7f7;
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 .owl-item {
   float: left;
 }
+
+div.services-block {
+  text-align: center;
+}
+
 .services-block span {
   margin: 10px 0;
   position: relative;
-  font-size: 13px;
+  font-size: 17px;
   color: #292929;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
   display: block;
+  margin-bottom: 25px;
+  font-weight: bold;
+  /* text-align: center; */
 }
 
 .services-block .separator {
@@ -351,9 +359,16 @@ nav ul li a {
 }
 
 .services-block i {
-  font-size: 44px;
+  font-size: 80px;
   color: #b8a07e;
-  line-height: 44px;
+  line-height: 80px;
+  /* display: inline-block;
+  text-align: center; */
+}
+
+img.languages {
+  width: 70px;
+  height: 70px;
 }
 
 
